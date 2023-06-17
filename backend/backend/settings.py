@@ -10,9 +10,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('TOKEN', 'django-insecure')
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['taskname.ddns.net']
+ALLOWED_HOSTS = ['62.84.121.16', '127.0.0.1', 'localhost', 'taskname.ddns.net']
 
 
 # Application definition
