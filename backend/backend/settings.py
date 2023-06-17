@@ -12,7 +12,7 @@ SECRET_KEY = os.getenv('TOKEN', 'django-insecure')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['62.84.121.16', '127.0.0.1', 'taskname.ddns.net']
+ALLOWED_HOSTS = ['taskname.ddns.net']
 
 
 # Application definition
